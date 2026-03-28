@@ -7,7 +7,8 @@
  "field_order": [
   "crypto_key",
   "crypto_iv",
-  "sso_url"
+  "sso_url",
+  "is_uat"
  ],
  "fields": [
   {
@@ -23,14 +24,20 @@
   {
    "fieldname": "sso_url",
    "fieldtype": "Data",
-   "label": "SSO URL"
+   "label": "SSO URL",
+   "read_only": 1
+  },
+  {
+   "fieldname": "is_uat",
+   "fieldtype": "Check",
+   "label": "Is UAT"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2026-03-23 10:58:23.125460",
+ "modified": "2026-03-28 15:12:11.299626",
  "modified_by": "Administrator",
  "module": "Sidh Integration",
  "name": "SIDH Settings",
