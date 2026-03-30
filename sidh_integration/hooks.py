@@ -4,6 +4,7 @@ app_publisher = "Mytra"
 app_description = "SIDH SSO Integration for Skilldzire"
 app_email = "shalini@mytra.money"
 app_license = "mit"
+app_logo_url = "/assets/sidh_integration/images/logo.png"
 
 # Apps
 # ------------------
